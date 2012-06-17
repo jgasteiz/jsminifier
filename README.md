@@ -2,8 +2,7 @@
 
 * A simple command line tool to minify your javascript files.
 
-It uses Google Closure Compiler Application to compile with two different levels
-of compilation: WHITESPACE_ONLY or SIMPLE_OPTIMIZATIONS.
+* It uses Google Closure Compiler Application to compile with two different levels of compilation: WHITESPACE_ONLY or SIMPLE_OPTIMIZATIONS.
 
 Examples:
 
