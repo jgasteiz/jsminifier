@@ -11,8 +11,6 @@ Examples:
 
 This will generate a .min.js file with its whitespaces and linebreaks removed for each .js file in javascript_files/. The script will create a min/ folder inside the source folder if it doesn't exist already.
 
-
 	python minify.py -l 1 -s /Users/jgasteiz/Desktop/javascript_files/
-
 
 The same as the other, but this time it goes further and shortens variable names too.

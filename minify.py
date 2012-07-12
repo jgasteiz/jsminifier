@@ -2,12 +2,12 @@
 # -*- coding: UTF-8 -*-
 import os
 import json
-import argparse
 
 __author__ = 'Javi Manzano | https://github.com/jgasteiz'
 __license__ = 'GPL'
 __version__ = '0.1'
 __email__ = 'javi.manzano.oller@gmail.com'
+
 
 def main():
 
@@ -63,7 +63,7 @@ def main():
                         help='Source folder where original javascript files are', 
                         required=True)        
     if settings['destination_path'] == '':
-         parser.add_argument('-d','--destination_path', default='min/',
+        parser.add_argument('-d','--destination_path', default='min/',
                         help='Destination folder. If it does not exist, it\'ll be created', 
                         required=False)
     if settings['compilation_level'] == '':
@@ -80,7 +80,7 @@ def main():
 
     if not source_path[-1] == '/':
         source_path = source_path + '/'
-    
+
     if destination_path == '':
         destination_path = ARGS['destination_path']
         
